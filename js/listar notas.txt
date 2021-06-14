@@ -1,0 +1,28 @@
+listar notas 
+    usar o axios para coletar todas as notas do backend(servidor), puxando somente id e nome para ficar mais leve o arquivo
+    guarda o resultado do axio dentro de uma variavel
+    obs: esse resultado é um array [lista de notas]
+    percorrer o cada item dessa lista e printar no html
+
+
+
+deletar nota
+    receber o valor do id da nota que o usuario quer deletar
+    cofirmar com o usuario se realmente ele quer deletar a nota    
+    chamar a funcão do backend para deletar de verdade a nota
+    apagar todas as notas da tela 
+    chamar a função 'listar notas'
+
+editar nota
+    receber o valor do id da nota que o usuario quer editar
+    usar o axios para puchar todos os dados do backend(servidor)
+    mostra formulario com as informaçoes das notas
+    preencer o formulario com os dados dessa nota expecifica (id selecionado pelo usuário)
+
+salvar nota
+    receber o formulario com os dados colocados pelo usuário
+    usar o axios para salvar os dados no backend(servidor)
+    voltar para a tela de listar notas.    
+
+
+

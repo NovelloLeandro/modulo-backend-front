@@ -1,0 +1,26 @@
+* {
+    margin:0;
+}
+
+body {
+    font-family: "Rock Salt", cursive;
+    overflow: hidden;
+}
+
+#bg-left {
+    background-color: rgb(165, 164, 164);
+    display: block;
+    position: relative;
+
+}
+
+#imgLogin {
+    display: block;
+    position: relative;
+    color: darkgreen;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
